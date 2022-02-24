@@ -1,5 +1,10 @@
 # babylonjs-piano-tutorial
 
+```zsh
+% npm run build
+% npm run start
+```
+
 ## チュートリアルの元ネタ
 
 https://docs.microsoft.com/ja-jp/windows/mixed-reality/develop/javascript/tutorials/babylonjs-webxr-piano/introduction-01
