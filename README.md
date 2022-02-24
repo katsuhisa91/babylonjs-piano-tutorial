@@ -6,6 +6,10 @@ https://docs.microsoft.com/ja-jp/windows/mixed-reality/develop/javascript/tutori
 
 ## 学習メモ
 
+### 環境のセットアップ
+
+https://doc.babylonjs.com/guidedLearning/createAGame/gettingSetUp
+
 ### カメラとライトの基礎
 
 https://docs.microsoft.com/ja-jp/windows/mixed-reality/develop/javascript/tutorials/babylonjs-webxr-helloworld/prepare-scene-02#add-a-camera
