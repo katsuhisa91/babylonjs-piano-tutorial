@@ -6,7 +6,7 @@ const appDirectory = fs.realpathSync(process.cwd());
 module.exports = {
     entry: path.resolve(appDirectory, "src/scene.js"), //path to the main .ts file
     output: {
-        filename: "scene.js", //name for the js file that is created/compiled in memory
+        filename: "js/scene.js", //name for the js file that is created/compiled in memory
         clean: true,
     },
     resolve: {
