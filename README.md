@@ -10,3 +10,6 @@ https://docs.microsoft.com/ja-jp/windows/mixed-reality/develop/javascript/tutori
 
 https://docs.microsoft.com/ja-jp/windows/mixed-reality/develop/javascript/tutorials/babylonjs-webxr-helloworld/prepare-scene-02#add-a-camera
 
+### WebXRとは
+
+https://doc.babylonjs.com/divingDeeper/webXR/introToWebXR
