@@ -80,9 +80,14 @@ const createScene = async function(engine) {
     // Transform Node that acts as the parent of all piano keys
     const keyboard = new BABYLON.TransformNode("keyboard");
 
-    keyParams.forEach(key => {
-        buildKey(scene, keyboard, Object.assign({register: 4, referencePositionX: 0}, key));
-    })
+    // Register 1 through 7
+    var referencePositionX = -2.4*14;
+    for (let register = 1; register <= 7; register++) {
+        keyParams.forEach(key => {
+            buildKey(scene, keyboard, Object.assign({register: register, referencePositionX: referencePositionX}, key));
+        })
+        referencePositionX += 2.4*7;
+    }
 
     const xrHelper = await scene.createDefaultXRExperienceAsync();
 
