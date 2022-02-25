@@ -108,7 +108,7 @@ const createScene = async function(engine) {
         frame.parent = piano;
     });
 
-    // Lift piano keys
+    // Lift the piano keyboard
     keyboard.position.y += 80;
 
     const xrHelper = await scene.createDefaultXRExperienceAsync();
