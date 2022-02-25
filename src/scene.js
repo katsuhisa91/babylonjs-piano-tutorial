@@ -89,6 +89,15 @@ const createScene = async function(engine) {
         referencePositionX += 2.4*7;
     }
 
+    // Register 0
+    buildKey(scene, keyboard, {type: "white", note: "A", topWidth: 1.9, bottomWidth: 2.3, topPositionX: -0.20, wholePositionX: -2.4, register: 0, referencePositionX: -2.4*21});
+    keyParams.slice(10, 12).forEach(key => {
+        buildKey(scene, keyboard, Object.assign({register: 0, referencePositionX: -2.4*21}, key));
+    })
+
+    // Register 8
+    buildKey(scene, keyboard, {type: "white", note: "C", topWidth: 2.3, bottomWidth: 2.3, topPositionX: 0, wholePositionX: -2.4*6, register: 8, referencePositionX: 84});
+
     const xrHelper = await scene.createDefaultXRExperienceAsync();
 
     return scene;
