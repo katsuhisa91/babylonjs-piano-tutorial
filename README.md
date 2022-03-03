@@ -26,3 +26,9 @@ https://doc.babylonjs.com/divingDeeper/lights/lights_introduction
 ### WebXRとは
 
 https://doc.babylonjs.com/divingDeeper/webXR/introToWebXR
+
+### 外部のメッシュをインポートする方法
+
+`SceneLoader.ImportMesh`
+
+https://doc.babylonjs.com/divingDeeper/importers/loadingFileTypes#sceneloaderimportmesh
